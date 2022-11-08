@@ -1,6 +1,6 @@
-import arrowDown from './assets/icons/select-arrow-down.svg'
-import arrowUp from './assets/icons/select-arrow-up.svg'
-import options from './assets/icons/menu-options.svg'
+import arrowDown from '../assets/icons/select-arrow-down.svg'
+import arrowUp from '../assets/icons/select-arrow-up.svg'
+import options from '../assets/icons/menu-options.svg'
 
 export default class View {
   constructor (state) {

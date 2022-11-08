@@ -6,7 +6,7 @@ import {
   sortByDateUp,
   sortByPriceDown,
   sortByPriceUp,
-} from './helpers/sort.js'
+} from '../helpers/sort.js'
 
 export default () => {
   const state = {
