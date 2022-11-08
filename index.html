@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+</head>
+<body>
+<header class='header'>
+    <div class='select sort'>
+        <button class="toggle" type='button'>
+        <span class='toggle__value'>
+             По дате публикации
+        <img class='toggle-icon' src='assets/icons/select-arrow-up.svg' alt=''>
+        </span>
+            <span class='toggle__tick'></span>
+        </button>
+        <div class='select__option-list'>
+            <div class='select__option' data-option-value='by-date-up'>
+                По дате публикации
+                <img src='assets/icons/select-arrow-up.svg' alt=''>
+            </div>
+            <div class='select__option' data-option-value='by-date-down'>
+                По дате публикации
+                <img src='assets/icons/select-arrow-down.svg' alt=''>
+            </div>
+            <div class='select__option'  data-option-value='by-price-up'>
+                По цене
+                <img src='assets/icons/select-arrow-up.svg' alt=''>
+            </div>
+            <div class='select__option' data-option-value='by-price-down'>
+                По цене
+                <img src='assets/icons/select-arrow-down.svg' alt=''>
+            </div>
+        </div>
+    </div>
+</header>
+<main class='main'>
+    <ul class='cards'></ul>
+</main>
+
+<script type="module" src="/main.js"></script>
+</body>
+</html>
